@@ -122,6 +122,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b1f554b80ea2364bb3593082bfb74f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whatIsProp:
+    serializedVersion: 2
+    m_Bits: 512
   explosionParticle: {fileID: 2921370021769969105}
   explosionAudio: {fileID: 6876104265752129538}
   maxDamage: 100
@@ -139,6 +142,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasmaExplosionEffect Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516594673731079704, guid: 7e2081125513a8c4589dacb159f82c4f,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3637833391268791256, guid: 7e2081125513a8c4589dacb159f82c4f,
         type: 3}
@@ -195,22 +203,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3516594673731079704, guid: 7e2081125513a8c4589dacb159f82c4f,
-        type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5128310050219312075, guid: 7e2081125513a8c4589dacb159f82c4f,
         type: 3}
       propertyPath: m_Volume
       value: 0.1
       objectReference: {fileID: 0}
-    - target: {fileID: 3516594679845391972, guid: 7e2081125513a8c4589dacb159f82c4f,
-        type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3516594680649599898, guid: 7e2081125513a8c4589dacb159f82c4f,
+    - target: {fileID: 3516594680179275696, guid: 7e2081125513a8c4589dacb159f82c4f,
         type: 3}
       propertyPath: playOnAwake
       value: 0
@@ -220,7 +218,12 @@ PrefabInstance:
       propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3516594680179275696, guid: 7e2081125513a8c4589dacb159f82c4f,
+    - target: {fileID: 3516594679845391972, guid: 7e2081125513a8c4589dacb159f82c4f,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516594680649599898, guid: 7e2081125513a8c4589dacb159f82c4f,
         type: 3}
       propertyPath: playOnAwake
       value: 0
